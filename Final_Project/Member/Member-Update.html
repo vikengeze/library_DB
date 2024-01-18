@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html style="background-image:url(../Images/background.jpg);">
+
+	<head>
+		<title> DB 2018-19 </title>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="../CSS/stylesheet_general.css"/>
+		<link rel="icon" href="../Images/favicon.png"/>
+		
+	</head>
+
+	<body>
+		<p style="font-size:50px;text-align:center;color:white;
+		font-family:myfont">Insert Member ID:</p>
+		<form action="Member-Update.php" method="GET" align="center">
+			<div>
+				<label for="memberID">Member ID: </label>
+				<input type="text" name="memberID" 
+				required autofocus placeholder="Insert your member ID"
+				pattern="[0-9]{1,}" style="width:70%"
+				title="Please enter at least 1 digit">
+			</div>
+			<br><br>
+			<input type="submit" value="Next">
+		</form>
+	</body>
+
+</html>

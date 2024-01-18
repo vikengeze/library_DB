@@ -1,0 +1,41 @@
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+@font-face {
+  		font-family: "myfont";
+  		src: url(DINPro-Regular_13937.ttf);
+}
+
+.hover_button {
+	font-family:myfont;
+	text-align: center;
+	font-size: 24px;
+	text-decoration:none;
+	
+	display: inline-block;
+	border-radius: 10px;
+	border: none;
+	
+	color: #FFFFFF;
+	background-color: #425593;
+
+	transition: all 0.5s;
+	
+	cursor: pointer;
+	margin: 10px;
+	width: 250px;
+	
+	padding: 20px;
+	
+}
+
+.hover_button:hover {
+	transform: scale(1.08); 
+}

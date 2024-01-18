@@ -1,0 +1,139 @@
+@font-face {
+  		font-family: "myfont";
+  		src: url(DINPro-Regular_13937.ttf);
+}
+
+.hover_button {
+	font-family:myfont;
+	text-align: center;
+	font-size: 24px;
+	text-decoration:none;
+	
+	display: inline-block;
+	border-radius: 10px;
+	
+	color: #FFFFFF;
+	background-color: #425593;
+
+	transition: all 0.5s;
+	
+	cursor: pointer;
+	margin: 7px;
+	width: 160px;
+	
+	padding: 20px;
+}
+
+.hover_button:hover {
+    transform: scale(1.08); 
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+}
+
+input[type=text], select {
+	width: 60%;
+	padding: 4px 10px;
+	margin: 0px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=number], select {
+	width: 60%;
+	padding: 4px 10px;
+	margin: 0px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+input[type=email], select {
+	width: 60%;
+	padding: 4px 10px;
+	margin: 0px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=date], select {
+	width: 70%;
+	padding: 4px 10px;
+	margin: 0px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	font-size: 20px;
+	font-family:myfont;
+	text-align: center;
+	text-decoration:none;
+
+	display: inline-block;
+	border-radius: 10px;
+	border: none;
+	
+	background-color: #425593;
+	color: #FFFFFF;
+
+	height: 50px;
+	width: 10%;
+	padding: 5px 5px;
+	margin: 8px 0;
+
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+input[type=submit]:hover {
+	background-color: #425593;
+}
+
+div {
+	width: 30%;
+	height: 20px;
+	border-radius: 8px;
+	display: inline-block;
+	background-color:rgba(242,242,242,0.9);
+	padding: 20px;
+	font-family: myfont;
+	text-align:center;	 
+	color:black;
+}
+
+label {
+	font-family: myfont;
+	text-align:center;		 
+	color:black;
+}	
+
+h1 {
+	font-family: myfont;
+	text-align:center;	 
+	color:black;	
+}
+
+p {
+	font-size:60px;
+	font-family: myfont;
+	text-align:center;
+	align: center;
+	color:black;
+}
+
+form {
+	font-family: myfont;
+	text-align: center;
+}
